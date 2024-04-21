@@ -1,35 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://micineposlastice.000webhostapp.com/#Onama</loc>
-  <lastmod>2023-12-01T23:34:43+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://micineposlastice.000webhostapp.com/#Recepti</loc>
-  <lastmod>2023-12-01T23:34:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://micineposlastice.000webhostapp.com/#Omeni</loc>
-  <lastmod>2023-12-01T23:34:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://micineposlastice.000webhostapp.com/#Galerija</loc>
-  <lastmod>2023-12-01T23:34:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://micineposlastice.000webhostapp.com/#Kontakt</loc>
-  <lastmod>2023-12-01T23:34:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<xml version="1.0" encoding="UTF-8">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://sttyoyo.github.io/milica-portfolio/index.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://sttyoyo.github.io/milica-portfolio/index.html#Omeni</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sttyoyo.github.io/milica-portfolio/index.html#Vestine</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sttyoyo.github.io/milica-portfolio/index.html#Projekti</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sttyoyo.github.io/milica-portfolio/index.html#Usluge</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sttyoyo.github.io/milica-portfolio/index.html#Utisci</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://sttyoyo.github.io/milica-portfolio/index.html#Kontakt</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
