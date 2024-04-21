@@ -367,11 +367,168 @@ body{
 	margin-top:20px;
 }
 
-@media only screen and (max-width: 600px) {
-  #Naslovna .left-section {
-    width: 200px;
-  }
-  #Naslovna .left-section h1 {
-	  	font-size: 12px;
-  }
+
+
+
+
+/*MEDIA*/
+@media only screen and (max-width: 768px) {
+    /* HEADER */
+    #header {
+        height: 80px;
+    }
+    #logo {
+        height: 70px;
+        width: 70px;
+    }
+
+    /* NASLOVNA */
+    #Naslovna h1 {
+        font-size: 50px;
+        padding-top: 120px;
+    }
+    #ikonice {
+        margin-top: 50px;
+    }
+    #ikonice img {
+        height: 70px;
+    }
+    .tekst.brojke {
+        font-size: 20px;
+    }
+    .tekst p {
+        font-size: 12px;
+    }
+    .ja img {
+        height: 250px;
+        padding: 5px;
+    }
+    .programiranje-traka {
+        margin-top: 30px;
+    }
+    .program {
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+    }
+    .projekat {
+        height: 200px;
+    }
+    #Projekti h2 {
+        font-size: 40px;
+    }
+    .uslugice {
+        font-size: 30px;
+    }
+    .utisci p {
+        font-size: 15px;
+    }
+    .utisci img {
+        height: 70px;
+        width: 70px;
+        padding: 5px;
+    }
+
+    /* KONTAKT */
+    #Kontakt h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    #contactForm {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #contactForm .form-group {
+        margin-top: 8px;
+        padding: 0 3px;
+    }
+    #contactForm .form-group.form-submit button {
+        font-size: 18px;
+        padding: 3px 6px;
+    }
+    #contactForm .form-group input,
+    #contactForm .form-group #Poruka {
+        font-size: 18px;
+        padding: 3px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /* HEADER */
+    #header {
+        height: 60px;
+    }
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    /* NASLOVNA */
+    #Naslovna h1 {
+        font-size: 40px;
+        padding-top: 90px;
+    }
+    #ikonice {
+        margin-top: 30px;
+    }
+    #ikonice img {
+        height: 50px;
+    }
+    .tekst.brojke {
+        font-size: 16px;
+    }
+    .tekst p {
+        font-size: 10px;
+    }
+    .ja img {
+        height: 180px;
+        padding: 3px;
+    }
+    .programiranje-traka {
+        margin-top: 20px;
+    }
+    .program {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+    }
+    .projekat {
+        height: 150px;
+    }
+    #Projekti h2 {
+        font-size: 30px;
+    }
+    .uslugice {
+        font-size: 24px;
+    }
+    .utisci p {
+        font-size: 12px;
+    }
+    .utisci img {
+        height: 50px;
+        width: 50px;
+        padding: 3px;
+    }
+
+    /* KONTAKT */
+    #Kontakt h2 {
+        font-size: 16px;
+        padding: 5px;
+    }
+    #contactForm {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #contactForm .form-group {
+        margin-top: 6px;
+        padding: 0 2px;
+    }
+    #contactForm .form-group.form-submit button {
+        font-size: 16px;
+        padding: 2px 4px;
+    }
+    #contactForm .form-group input,
+    #contactForm .form-group #Poruka {
+        font-size: 16px;
+        padding: 2px;
+    }
 }

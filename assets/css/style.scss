@@ -1,0 +1,144 @@
+body {
+    background-image: linear-gradient(#b76e78, #d998a3, #f6dfe1, #efd1d5, #ebbec4, #d8a2a9);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+}
+
+#header ul {
+    font-family: 'Young Serif', serif;
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+    margin-right: 15px;
+    float: right;
+}
+
+#header ul li {
+    margin: 10px;
+    display: inline-block;
+}
+
+#header ul li a {
+    display: block;
+    color: #C99383;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+#header ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 15px;
+    bottom: 5px;
+    top: 5px;
+    overflow: hidden;
+}
+
+/* CONTENT */
+
+#content {
+    color: #0D0D0D;
+    width: 100%;
+    font-family: 'Hedwig Letters Serif';
+    margin-top: 100px;
+}
+
+.section {
+    width: 100%;
+    font-family: 'Bree Serif', serif;
+    color: #FFFFFF;
+}
+
+.section h2 {
+    margin: 0;
+    font-size: 70px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* NASLOVNA */
+
+#Naslovna {
+    height: 750px;
+    margin: 0 auto;
+    background-image: url(naslovna.jpg);
+    background-size: cover;
+    text-align: left;
+}
+
+#Naslovna h1 {
+    font-size: 75px;
+    padding-top: 170px;
+    animation: glow 1s ease-in-out infinite alternate;
+    color: #FFFFFF;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #A076F9, 0 0 60px #A076F9, 0 0 70px #A076F9;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #C99383, 0 0 40px #C99383, 0 0 50px #C99383, 0 0 60px #C99383, 0 0 70px #C99383, 0 0 80px #C99383;
+    }
+}
+
+#Naslovna p {
+    font-size: 25px;
+    color: white;
+}
+
+.left-section {
+    width: 690px;
+    padding-left: 50px;
+}
+
+#ikonice {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#ikonice img {
+    height: 100px;
+}
+
+.tekst.brojke {
+    font-size: 30px;
+}
+
+.tekst p {
+    font-size: 15px;
+}
+
+/* O MENI */
+
+#Omeni {
+    align-items: center;
+    display: inline-block;
+}
+
+#Omeni h2 {
+    margi
