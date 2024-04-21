@@ -1,0 +1,44 @@
+<style type="text/css">
+	#contactForm {
+	width: 500px;
+}
+
+#contactForm .form-group {
+	margin: 0;
+	padding: 0;
+}
+
+#contactForm .form-group input {
+	width: 100%;
+	/*padding: 0px 4px;*/
+}
+
+#contactForm .form-group.form-firstname,
+#contactForm .form-group.form-lastname {
+	width: 50%;
+}
+</style>
+
+<div class="section" id="Kontakt">
+	<h2>Kontakiraj me</h2>
+	<form id="contactForm">
+		<div class="form-group form-firstname">
+			<input type="text" class="form-control" id="Ime" placeholder="Upiši svoje ime" required>
+		</div>
+		<div class="form-group form-lastname">
+			<input type="text" class="form-control" id="Prezime" placeholder="Upiši svoje prezime" required>
+		</div>
+		<div class="form-group">
+			<input type="number" class="form-control" id="Kontakt-telefon" placeholder="Upiši svoj broj telefona" required>
+		</div>
+		<div class="form-group">
+			<input type="email" class="form-control" id="Email-adresa" placeholder="Upiši svoju email adresu" required>
+		</div>
+		<div class="form-group">
+			<input type="messages-box" class="form-control" id="Poruka" placeholder="Pošalji mi poruku" required>
+		</div>
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary">Potvrđujem</button>
+		</div>
+	</form>
+</div>
